@@ -1,0 +1,181 @@
+.HECHAPOR{
+    text-align: center;
+    color: cornflowerblue;
+}
+.tittle{
+    text-align: center;
+    color: rgb(213, 139, 28);
+    font-size: large;
+}
+
+.cajapadre{
+    background-color: rgb(111, 208, 150);
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% auto; 
+    grid-template-rows: 70px 70px 70px 70px 70px; 
+}
+
+.cajahijo{
+    background-color: lightcyan;
+    margin: 2px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: aquamarine;
+}
+
+.cajahijo1{
+    background-color: lightcyan;
+    margin: 2px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: aquamarine;
+    grid-column: 1/5;
+}
+
+.cajahijo2{
+    background-color: lightcyan;
+    margin: 2px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: aquamarine;
+    grid-column: 1/3;
+}
+
+.cajahijo6{
+    background-color: lightcyan;
+    margin: 2px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: aquamarine;
+    grid-column: 2/5;
+}
+
+
+.cajahijo7{
+    background-color: rgb(147, 228, 228);
+    margin: 2px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: aquamarine;
+    grid-column: 1/3;
+    grid-row: 4/6;
+}
+
+
+.cajahijo8{
+    background-color: rgb(147, 228, 228);
+    margin: 2px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: aquamarine;
+    grid-column: 3/5;
+}
+
+.cajahijo11{
+    background-color: rgb(147, 228, 228);
+    margin: 2px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: aquamarine;
+    grid-column: 3/5;
+}
+
+
+/* ********************** 2DA PARTE ********************** */
+
+.cajadad{
+    margin-top: 20px;
+    background-color: brown;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+
+.minicaja1{
+    background-color: aqua;
+    width:250px;
+    margin: 10px;
+    border-radius: 10px;
+    height: 150px;
+    flex-grow: 1;
+}
+
+
+.minicaja2{
+    background-color: aqua;
+    width: 600px;
+    margin: 10px;
+    border-radius: 10px;
+    height: auto;
+    flex-grow: 1;
+}
+
+.minicaja3{
+    background-color: aqua;
+    width: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    height: auto;
+    flex-grow: 1;
+}
+
+.cajaancha{
+    background-color: beige;
+    margin: 10px;
+    height: 50px;
+}
+
+.contenedor_de_cajas_de_lados{
+    margin: 2px;
+    display: flex;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.cajaizquierda{
+    background-color: rgb(129, 97, 49);
+    width: 250px;
+    border-radius: 10px;
+    height: 50px;
+    margin: 10px;
+}
+.cajaderecha{
+    background-color: rgb(171, 130, 68);
+    width: 250px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* ********************** 3RA PARTE ********************** */
+
+.parte3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.nombre{
+    width: 500px;
+    margin: 5px;
+    margin-right: 300px;
+}
+.email{
+    width: 350px;
+    margin: 5px;
+    margin-right: 200px;
+}
+.Edad{
+    width: 100px;
+    margin: 5px;
+}
